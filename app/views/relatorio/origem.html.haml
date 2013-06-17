@@ -1,0 +1,21 @@
+-#  This file is app/views/movies/index.html.haml
+
+#header
+	#gray_line
+
+.titulo Centro de Saúde
+
+%table.relatorio
+	%thead
+		%tr
+			%th Código da Origem
+			%th Descrição
+			%th Quantidade
+			%th Percentual
+	%tbody
+		- @origem.each do |s|
+			%tr
+				%td= s.origem_codigo 
+				%td= s.origem_desc
+				%td= s.count 
+				%td= s.perc

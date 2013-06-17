@@ -1,0 +1,17 @@
+-#  This file is app/views/movies/index.html.haml
+
+#header
+	#gray_line
+
+.titulo Status
+
+%table.relatorio
+	%thead
+		%tr
+			%th Status
+			%th Quantidade
+	%tbody
+		- @status.each do |s|
+			%tr
+				%td= s[0] 
+				%td= s[1]

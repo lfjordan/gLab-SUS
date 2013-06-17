@@ -1,5 +1,8 @@
 Sus::Application.routes.draw do
-  get "home/index"
+  get "relatorio/index"
+  get "relatorio/status"
+  get "relatorio/origem"
+  get "relatorio/pendentes"
 
 
   # The priority is based upon order of creation:

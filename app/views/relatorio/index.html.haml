@@ -16,6 +16,7 @@
 			%th Idade
 			%th Nome da Mãe
 			%th Telefone
+			%th Status
 	%tbody
 		- @agendamentos.each do |agendamento|
 			%tr
@@ -27,3 +28,4 @@
 				%td= agendamento.idade
 				%td= agendamento.nome_mae
 				%td= agendamento.telefone
+				%td= agendamento.status

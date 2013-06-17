@@ -1,0 +1,29 @@
+-#  This file is app/views/movies/index.html.haml
+
+#header
+	#gray_line
+
+.titulo Pendentes
+
+%table.relatorio
+	%thead
+		%tr
+			%th Autorização
+			%th Bioquímico
+			%th Paciente 
+			%th Idade
+			%th Nome da Mãe
+			%th Telefone
+			%th Operadora
+			%th Centro de Saúde
+	%tbody
+		- @pendentes.each do |pendente|
+			%tr
+				%td= pendente.autorizacao 
+				%td= pendente.nome_bioquimico
+				%td= pendente.nome_paciente
+				%td= pendente.idade
+				%td= pendente.nome_mae
+				%td= pendente.telefone
+				%td Não disponível
+				%td= pendente.origem_desc
