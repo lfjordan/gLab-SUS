@@ -1,0 +1,29 @@
+-#  This file is app/views/movies/index.html.haml
+
+#header
+	#gray_line
+
+.titulo Agendamentos
+
+%table.relatorio
+	%thead
+		%tr
+			%th Autorização
+			%th Código do Exame
+			%th Exame 
+			%th Data
+			%th Paciente
+			%th Idade
+			%th Nome da Mãe
+			%th Telefone
+	%tbody
+		- @agendamentos.each do |agendamento|
+			%tr
+				%td= agendamento.autorizacao 
+				%td= agendamento.exame_codigo
+				%td= agendamento.exame_desc
+				%td= agendamento.data_execucao
+				%td= agendamento.nome_paciente
+				%td= agendamento.idade
+				%td= agendamento.nome_mae
+				%td= agendamento.telefone

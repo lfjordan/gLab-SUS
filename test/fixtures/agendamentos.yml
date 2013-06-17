@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  autorizacao: MyString
+  codigo_do_exame: MyString
+  cpf_bioquimico: MyString
+  nome_bioquimico: MyString
+  data: MyString
+  nome_paciente: MyString
+  data_nascimento: MyString
+
+two:
+  autorizacao: MyString
+  codigo_do_exame: MyString
+  cpf_bioquimico: MyString
+  nome_bioquimico: MyString
+  data: MyString
+  nome_paciente: MyString
+  data_nascimento: MyString

@@ -1,0 +1,46 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+div#header {
+	height: 80px;
+	background-color: #565656;
+	background-image: image-url("glab_sus_icon.png"); 
+	background-repeat: no-repeat; 
+	background-position: 30px 10px; 
+}
+
+#gray_line {
+	width: 96%;
+	height: 2px;
+	background-color: #5C5C5D;
+	position:relative;
+	display:block;
+	top: 50px;
+	left: 1.5%;
+	right: 1.5%;
+}
+
+.titulo {
+	font-size: 32px;
+	color: #F37C2D;
+	text-align: center;
+	margin: 25px;
+}
+
+table.relatorio {
+	width:90%;
+	border: 1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.relatorio th {
+	border: 1px solid black;
+}
+
+table.relatorio td {
+	text-align: center;
+}
